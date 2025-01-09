@@ -7,6 +7,7 @@ from handlers.start import router as start_router
 from handlers.trainer import router as trainer_router
 from handlers.menu import router as menu_router
 from handlers.legal_database import router as legal_database_router
+from handlers.dictionary import router as dictionary_router
 
 # Configure logging
 logging.basicConfig(
@@ -24,7 +25,8 @@ async def main():
     dp.include_router(start_router)
     dp.include_router(trainer_router)
     dp.include_router(menu_router)
-    dp.include_router(legal_database_router)  # Add legal database router
+    dp.include_router(legal_database_router)
+    dp.include_router(dictionary_router)  # Add legal database router
 
     logger.info("Starting bot...")
     try:

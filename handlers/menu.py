@@ -2,13 +2,12 @@ from aiogram import Router, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import Command
 
-# Initialize Router properly
 router = Router()
 router.name = 'menu'
 
-@router.message(Command("menu"))
-async def menu_handler(message: types.Message):
-    keyboard = ReplyKeyboardMarkup(
+def get_main_keyboard():
+    """Create main menu keyboard"""
+    return ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="Юридичний тренер")],
             [KeyboardButton(text="Словник")],
@@ -17,4 +16,7 @@ async def menu_handler(message: types.Message):
         ],
         resize_keyboard=True
     )
-    await message.answer("Оберіть розділ:", reply_markup=keyboard)
+
+@router.message(Command("menu"))
+async def menu_handler(message: types.Message):
+    await message.answer("Оберіть розділ:", reply_markup=get_main_keyboard())
