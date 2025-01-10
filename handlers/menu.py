@@ -18,5 +18,7 @@ def get_main_keyboard():
     )
 
 @router.message(Command("menu"))
+@router.message(lambda m: m.text in ["Повернутися до меню", "↩️ Повернутися до меню"])
 async def menu_handler(message: types.Message):
+    """Handle all returns to main menu"""
     await message.answer("Оберіть розділ:", reply_markup=get_main_keyboard())

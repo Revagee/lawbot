@@ -9,6 +9,7 @@ from handlers.menu import router as menu_router
 from handlers.legal_database import router as legal_database_router
 from handlers.dictionary import router as dictionary_router
 
+
 # Configure logging
 logging.basicConfig(
     level=logging.DEBUG,

@@ -3,6 +3,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from handlers.menu import menu_handler
 import aiohttp
 from bs4 import BeautifulSoup
 import logging
@@ -175,7 +176,7 @@ def create_keyboard(items: List[str], row_width: int = 1, include_back: bool = T
     """Create a keyboard with given items"""
     keyboard = [[KeyboardButton(text=item)] for item in items]
     if include_back:
-        keyboard.append([KeyboardButton(text="↩️ Повернутися до меню")])
+        keyboard.append([KeyboardButton(text="↩️ Повернутися до меню")])  # Standardized return text
     return ReplyKeyboardMarkup(keyboard=keyboard, resize_keyboard=True)
 
 @router.message(Command("database"))
@@ -191,10 +192,7 @@ async def start_database_search(message: types.Message, state: FSMContext):
 async def handle_code_selection(message: types.Message, state: FSMContext):
     if message.text == "↩️ Повернутися до меню":
         await state.clear()
-        await message.answer(
-            "Повернення до головного меню",
-            reply_markup=create_keyboard(["Повернутися до меню"], include_back=False)
-        )
+        await menu_handler(message)
         return
 
     if message.text in LEGAL_CODES:
