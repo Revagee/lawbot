@@ -52,6 +52,86 @@ LEGAL_CODES = {
         "id": "322-08",
         "url": "https://zakon.rada.gov.ua/laws/show/322-08",
         "print_url": "https://zakon.rada.gov.ua/laws/show/322-08/print"
+    },
+    "Кримінальний процесуальний кодекс України": {
+        "id": "4651-17",
+        "url": "https://zakon.rada.gov.ua/laws/show/4651-17",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/4651-17/print"
+    },
+    "Цивільний процесуальний кодекс України": {
+        "id": "1618-15",
+        "url": "https://zakon.rada.gov.ua/laws/show/1618-15",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/1618-15/print"
+    },
+    "Господарський кодекс України": {
+        "id": "436-15",
+        "url": "https://zakon.rada.gov.ua/laws/show/436-15",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/436-15/print"
+    },
+    "Господарський процесуальний кодекс України": {
+        "id": "1798-12",
+        "url": "https://zakon.rada.gov.ua/laws/show/1798-12",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/1798-12/print"
+    },
+    "Кодекс України про адміністративні правопорушення": {
+        "id": "80731-10",
+        "url": "https://zakon.rada.gov.ua/laws/show/80731-10",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/80731-10/print"
+    },
+    "Кодекс адміністративного судочинства України": {
+        "id": "2747-15",
+        "url": "https://zakon.rada.gov.ua/laws/show/2747-15",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/2747-15/print"
+    },
+    "Податковий кодекс України": {
+        "id": "2755-17",
+        "url": "https://zakon.rada.gov.ua/laws/show/2755-17",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/2755-17/print"
+    },
+    "Митний кодекс України": {
+        "id": "4495-17",
+        "url": "https://zakon.rada.gov.ua/laws/show/4495-17",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/4495-17/print"
+    },
+    "Земельний кодекс України": {
+        "id": "2768-14",
+        "url": "https://zakon.rada.gov.ua/laws/show/2768-14",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/2768-14/print"
+    },
+    "Водний кодекс України": {
+        "id": "213/95-вр",
+        "url": "https://zakon.rada.gov.ua/laws/show/213/95-вр",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/213/95-вр/print"
+    },
+    "Лісовий кодекс України": {
+        "id": "3852-12",
+        "url": "https://zakon.rada.gov.ua/laws/show/3852-12",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/3852-12/print"
+    },
+    "Повітряний кодекс України": {
+        "id": "3393-17",
+        "url": "https://zakon.rada.gov.ua/laws/show/3393-17",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/3393-17/print"
+    },
+    "Бюджетний кодекс України": {
+        "id": "2456-17",
+        "url": "https://zakon.rada.gov.ua/laws/show/2456-17",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/2456-17/print"
+    },
+    "Виборчий кодекс України": {
+        "id": "396-20",
+        "url": "https://zakon.rada.gov.ua/laws/show/396-20",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/396-20/print"
+    },
+    "Кодекс України з процедур банкрутства": {
+        "id": "2597-19",
+        "url": "https://zakon.rada.gov.ua/laws/show/2597-19",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/2597-19/print"
+    },
+    "Житловий кодекс України": {
+        "id": "5464-10",
+        "url": "https://zakon.rada.gov.ua/laws/show/5464-10",
+        "print_url": "https://zakon.rada.gov.ua/laws/show/5464-10/print"
     }
 }
 

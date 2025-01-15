@@ -177,7 +177,7 @@ def get_main_keyboard():
     )
 
 @router.message(Command("dict", "dictionary", "словник"))
-@router.message(lambda m: m.text and m.text.strip() == "Словник")  # More precise text matching
+@router.message(lambda m: m.text and m.text.strip() == "Словник")
 async def show_dictionary_menu(message: types.Message):
     """Handle dictionary commands and menu selection"""
     await message.answer(
